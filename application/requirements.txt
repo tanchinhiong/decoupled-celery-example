@@ -1,0 +1,4 @@
+redis
+requests
+pandas
+celery
