@@ -1,4 +1,1 @@
-redis
-requests
-pandas
 celery
