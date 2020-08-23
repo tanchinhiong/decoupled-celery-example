@@ -20,7 +20,7 @@ tasks = []
 for i in range(numTasks):
     time.sleep(2 * random.random())  # Random delay
     tasks.append(
-        app.send_task('add', (i, 3))  # Send task by name
+        app.send_task('addTask', (i, 3))  # Send task by name
     )
     print('Sent task:', i)
 

@@ -13,7 +13,7 @@ app = Celery(
 )
 
 
-@app.task(name='add')  # Named task
+@app.task(name='addTask')  # Named task
 def add(x, y):
     print('Task Add started')
     time.sleep(10 * random.random())  # Simulate a long task
