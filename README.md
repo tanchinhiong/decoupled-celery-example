@@ -21,3 +21,5 @@ Companion article: [Separating Celery application and worker in Docker container
 # Use make to run docker-compose
 make recompose
 ```
+
+Access Flower web UI at <http://localhost:8888>
