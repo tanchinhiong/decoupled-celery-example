@@ -10,8 +10,8 @@ print('Application started')
 
 app = Celery(
     'postman',
-    broker='amqp://user:bitnami@rabbitmq',
-    backend='amqp://user:bitnami@rabbitmq',
+    broker='pyamqp://user:bitnami@rabbitmq',
+    backend='rpc://user:bitnami@rabbitmq',
 )
 
 numTasks = 100

@@ -29,6 +29,6 @@ services:
       - CELERY_BROKER_URL=amqp://user:bitnami@rabbitmq
       - FLOWER_PORT=8888
     ports:
-      - 8888:8888
+      - 8889:8888
     depends_on:
       - rabbitmq
