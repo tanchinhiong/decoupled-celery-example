@@ -25,4 +25,4 @@ Companion articles:
 make recompose
 ```
 
-Access Flower web UI at <http://localhost:8888>
+Access Flower web UI at <http://localhost:8889>
